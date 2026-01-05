@@ -5,7 +5,7 @@
 
 #include <Heartbeat.h>
 //constructor
-Heartbeat pulse(13, 2000, 100);  //set the pin# to pulse and max time between pulses, pulse on time
+Heartbeat pulse(13, 2000, 100);  //set the pin# to pulse,  time between pulses, pulse on time
 
 void setup() {
   pulse.begin();
@@ -16,4 +16,5 @@ void loop() {
   delay(10);
   
 }
+
 
